@@ -1,16 +1,14 @@
-import React from "react";
 import './App.css';
-import {BrowserRouter} from "react-router-dom";
+import React from "react";
 import Header from "./components/Header/Header";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
-  return (
-   <BrowserRouter>
-     <div className="App">
-      <Header/>
-     </div>
-   </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+                <Header/>
+        </BrowserRouter>
+    )
+         ;
 }
-
 export default App;
