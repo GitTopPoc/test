@@ -1,0 +1,34 @@
+.discuss_wrapper {
+  padding: 100px 0;
+  background: #F4F3F8;
+}
+.discuss_text {
+  font-size: 36px;
+  color: #98DDB5;
+  font-weight: 500;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.contact_button {
+  max-width: 210px;
+  width: 100%;
+  margin: 0 auto;
+ a{
+
+   background: #0094FF;
+   border-radius: 4px;
+   padding: 16px 60px;
+   transition: .3s;
+   text-decoration: none;
+
+   &:hover {
+     background-color: rgb(0, 185, 255);
+   }
+
+   text-align: center;
+   font-size: 16px;
+   color: #fff;
+   font-weight: bold;
+ }
+}

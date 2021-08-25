@@ -88,17 +88,6 @@ h6 {
   font-weight: inherit;
 }
 
-/*--------------------*/
-.regular_text {
-  font-size: 20px;
-  margin: auto 0;
-}
-
-.block_container {
-  margin: 0 auto;
-  max-width: 100%;
-  width: 1400px;
-}
 ::-webkit-scrollbar { /* 1 - скроллбар */
   width: 8px;
   height: 4px;
@@ -126,4 +115,20 @@ h6 {
 ::-webkit-resizer { /* 7 - изменение размеров */
 }
 
+/*--------------------*/
+.regular_text {
+  font-size: 20px;
+  margin: auto 0;
+}
 
+.block_container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1360px;
+}
+
+.block_heading_text {
+  font-size: 40px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}

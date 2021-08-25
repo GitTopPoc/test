@@ -1,5 +1,5 @@
 .presentation_wrapper {
-  margin: 90px auto 0;
+  margin: 70px auto 0;
   padding: 0 30px;
 }
 
@@ -12,13 +12,14 @@
 }
 
 .presentation_image {
-  max-width: 60%;
+  width: 60%;
 img {
   width: 100%;
 }
 }
 .presentation_blocks {
   display: flex;
+  margin-top: 30px;
 }
 
 .presentation_info_heading {
@@ -53,7 +54,10 @@ img {
     margin: 12px;
     box-shadow: 0 .3rem .4rem #00000080;
     cursor: pointer;
-
+    transition: .3s;
+    &:hover {
+      transform: scale(1.15);
+    }
   }
 }
 
@@ -70,11 +74,11 @@ img {
  }
 }
 .info_link_wrapper {
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .download_links_wrapper {
-  margin: 30px auto;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
   img {
@@ -103,4 +107,13 @@ img {
 .presentation_links {
 margin: 0 auto;
   text-align: center;
+}
+
+@media (max-width: 840px) {
+.presentation_blocks {
+  display: block;
+}
+  .presentation_info {
+    margin: 50px auto;
+  }
 }

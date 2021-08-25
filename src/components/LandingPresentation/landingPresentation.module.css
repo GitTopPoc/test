@@ -1,5 +1,5 @@
 .presentation_wrapper {
-  margin: 90px auto 0;
+  margin: 70px auto 0;
   padding: 0 30px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .presentation_image {
-  max-width: 60%;
+  width: 60%;
 }
 .presentation_image img {
   width: 100%;
@@ -20,6 +20,7 @@
 
 .presentation_blocks {
   display: flex;
+  margin-top: 30px;
 }
 
 .presentation_info_heading {
@@ -52,6 +53,10 @@
   margin: 12px;
   box-shadow: 0 0.3rem 0.4rem #00000080;
   cursor: pointer;
+  transition: 0.3s;
+}
+.technology_block img:hover {
+  transform: scale(1.15);
 }
 
 .presentation_info_link {
@@ -68,11 +73,11 @@
 }
 
 .info_link_wrapper {
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .download_links_wrapper {
-  margin: 30px auto;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
 }
@@ -101,6 +106,16 @@
 .presentation_links {
   margin: 0 auto;
   text-align: center;
+}
+
+@media (max-width: 840px) {
+  .presentation_blocks {
+    display: block;
+  }
+
+  .presentation_info {
+    margin: 50px auto;
+  }
 }
 
 /*# sourceMappingURL=landingPresentation.module.css.map */
