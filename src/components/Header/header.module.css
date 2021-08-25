@@ -49,6 +49,36 @@
   font-weight: bold;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.dropdown_content {
+  transition: 0.2s;
+  display: none;
+  position: absolute;
+  left: -10px;
+  top: 18px;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown_content a {
+  transition: 0.2s;
+  color: black;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown_content a:hover {
+  background-color: #f1f1f1;
+  color: #98ddb5;
+}
+
 @media (max-width: 1100px) {
   .header_links ul {
     width: 420px;

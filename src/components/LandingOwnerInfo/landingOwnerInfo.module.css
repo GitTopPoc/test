@@ -1,0 +1,35 @@
+.block_heading {
+  text-align: center;
+  margin: -100px 0 0 0;
+}
+
+.owner_info_text {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 86px 0;
+}
+
+.owner_info_block {
+  width: 40%;
+  margin-left: 20%;
+}
+
+.owner_info_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+
+.kids_image {
+  width: 50%;
+  object-fit: contain;
+}
+
+@media (max-width: 1300px) {
+  .block_heading {
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=landingOwnerInfo.module.css.map */
